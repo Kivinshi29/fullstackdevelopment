@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    
+    <form>
+        <fieldset>
+            <legend align="center">Student Registraion Form</legend>
+        Name: <input type="text" name="name" placeholder="Enter your name..."/><br><br>
+        Enrollment No: <input type="text" name="enrollment" placeholder="220140107001"/><br><br>
+        Email Id: <input type="text" name="email" placeholder="abc123@gmail.com"/><br><br>
+        Gender: 
+        <input type="radio" value="m" name="gender"/>Male
+        <input type="radio" value="f" name="gender"/>Female<br><br>
+        Address: <textarea type="text" name="Address"> </textarea><br><br>
+        Departmant: 
+        <select>
+            <option>Select the department</option>
+            <option>Computer Engineering</option>
+            <option>Electronic and comunication Engineering</option>
+            <option>Mechanical Engineering</option>
+            <option>Civil Engineering</option>
+            <option>Electrical Engineering</option>
+            <option>Chemical Engineering</option>
+        </select><br><br>
+        Country: 
+        <select>
+            <option>Select the country</option>
+            <optgroup label="India">
+                <option>Gujrat</option>
+                <option>Rajesthan</option>
+                <option>Maharastr</option>
+            </optgroup>
+            <option>USA</option>
+            <option>Canada</option>
+        </select><br><br>
+
+        Skills:
+        <input type="checkbox" value="w" name="skills[]"/>Web Development
+        <input type="checkbox" value="d" name="skills[]"/>Data Analytics
+        <input type="checkbox" value="p" name="skills[]"/>Python 
+        <input type="checkbox" value="j" name="skills[]"/>Java
+        <input type="checkbox" value="f" name="skills[]"/>Full stack development<br><br>
+        Image:
+        <input type="file" name="image"/><br><br>
+        <input type="submit"/>
+        <input type="reset"/>
+    </fieldset>
+    </form>
+</body>
+</html>
